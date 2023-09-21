@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\Cju\Documents\GitHub\programmingcju2023\3weekend(2)\main.cpp(8,8): warning C4476: 'scanf' : 서식 지정자에 알 수 없는 형식 필드 문자 ' '이(가) 있습니다.
+C:\Users\Cju\Documents\GitHub\programmingcju2023\3weekend(2)\main.cpp(8,21): warning C4474: 'scanf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\Cju\Documents\GitHub\programmingcju2023\3weekend(2)\main.cpp(8,21): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 2개가 제공되었습니다.
+  3weekend(2).vcxproj -> C:\Users\Cju\Documents\GitHub\programmingcju2023\3weekend(2)\x64\Debug\3weekend(2).exe
