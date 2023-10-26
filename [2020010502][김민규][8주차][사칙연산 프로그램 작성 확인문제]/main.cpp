@@ -32,6 +32,14 @@ int div(int x, int y)
 	return div;
 }
 
+//³ª¸ÓÁö ¿¬»ê ÇÔ¼ö
+int lef(int x, int y)
+{
+	int lef;
+	lef = x % y;
+	return lef;
+}
+
 
 int main(void)
 {
@@ -49,7 +57,8 @@ int main(void)
 	printf("µ¡¼À : %d + %d = =%d\n", x, y, sum(x, y));
 	printf("»¬¼À : %d - %d = =%d\n", x, y, sub(x, y));
 	printf("°ö¼Á : %d * %d = =%d\n", x, y, mul(x, y));
-	printf("³ª´°¼Á : %d / %d = =%d\n", x, y, div(x, y));
+	printf("³ª´°¼À : %d / %d = =%d\n", x, y, div(x, y));
+	printf("³ª¸ÓÁö ¿¬»ê : %d / %d =%d\n", x, y, lef(x, y));
 
 	return 0;
 
